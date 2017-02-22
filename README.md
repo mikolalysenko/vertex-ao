@@ -1,6 +1,14 @@
 # vertex-ao
 Calculates vertex based ambient occlusion values for a triangular mesh.
 
+<img src="img/ao-bunny.png" />
+
+# Install
+
+```
+npm install vertex-ao
+```
+
 # Example
 
 ```javascript
