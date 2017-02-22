@@ -1,7 +1,7 @@
 # vertex-ao
 Calculates vertex based ambient occlusion values for a triangular mesh.
 
-<img src="img/ao-bunny.png" />
+<img src="img/bunny-ao.png" />
 
 # Install
 
