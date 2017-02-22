@@ -1,0 +1,5 @@
+var bunny = require('bunny')
+var normals = require('angle-normals')(bunny.cells, bunny.positions)
+bunny = require('refine-mesh')(bunny.cells, bunny.positions, normals, { edgeLength: 0.2 })
+bunny.ao = require('../index')(bunny.cells, bunny.positions, 2, 256)
+console.log(JSON.stringify(bunny))
